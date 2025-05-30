@@ -1,9 +1,0 @@
-Flask
-numpy
-opencv-python
-scikit-learn
-torch
-torchvision
-joblib
-matplotlib
-Pillow
