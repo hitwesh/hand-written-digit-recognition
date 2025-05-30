@@ -1,7 +1,0 @@
-flask
-opencv-python
-numpy
-joblib
-torchvision
-onnxruntime-directml
-scikit-learn
