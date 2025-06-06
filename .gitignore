@@ -1,0 +1,38 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore model files (optional, if you want to keep them local)
+models/*.pkl
+models/*.onnx
+
+# Ignore dataset cache (if using PyTorch datasets)
+data/
+*.pt
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.csv
+*.tmp
+
+# Ignore VS Code workspace settings
+.vscode/
+
+# Ignore environment configuration files
+.env
+.DS_Store
+
+# Ignore compiled files
+*.so
+*.dll
+*.dylib
+
+# Ignore Jupyter Notebook checkpoints (if using)
+.ipynb_checkpoints/

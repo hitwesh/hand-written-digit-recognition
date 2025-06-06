@@ -1,0 +1,48 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.upload-box {
+    border: 2px dashed #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f8ff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.upload-box:hover {
+    background-color: #e0f0ff;
+}
+
+.upload-box.dragging {
+    border-color: #ff5722;
+    background-color: #ffecb3;
+}
+
+.preview img {
+    width: 150px;
+    margin-top: 10px;
+    display: block;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#loading {
+    margin-top: 20px;
+}
+
+#result {
+    background: #e3f2fd;
+    padding: 10px;
+    border-radius: 10px;
+}
